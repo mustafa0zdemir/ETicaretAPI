@@ -5,12 +5,13 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
+using ETicaretAPI.Domain.Entities.Common;
 
 namespace ETicaretAPI.Domain.Entities
 {
-    public class Order : BaseEntitiy
+    public class Order : BaseEntity
     {
-        public int CustomerId { get; set; }
+        public Guid CustomerId { get; set; }
         public string Description { get; set; }
         public string Adress { get; set;}
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using ETicaretAPI.Application.Abstractions;
 using ETicaretAPI.Persistence.Concretes;
+using ETicaretAPI.Persistence.Contexts;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 
